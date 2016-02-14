@@ -24,6 +24,12 @@ namespace UnityStandardAssets._2D
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+            //Debug.Log("update user control");
+            Vector3 pos = new Vector3(33.3f, 3.13f);
+            if (m_Character.transform.position == pos)
+            {
+                print("passed");
+            }
         }
 
 
