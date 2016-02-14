@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Visible : MonoBehaviour {
+public class StartScreen : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -10,6 +10,9 @@ public class Visible : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        if (Input.GetKeyDown("space"))
+        {
+            Application.LoadLevel(1);
+        }
 	}
 }

@@ -46,18 +46,11 @@ namespace UnityStandardAssets._2D
 
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-
-            Vector3 pos = new Vector3(33.3f, 3.13f);
-            if (m_Rigidbody2D.transform.position == pos)
-            {
-                print("passed");
-            }
         }
 
 
         public void Move(float move, bool crouch, bool jump)
         {
-            
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
             {
