@@ -195,10 +195,10 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 572209802}
-  m_Text: GAME OVER
+  m_Text: "You Failed the \n       Paper"
   m_OffsetZ: 0
   m_CharacterSize: 1
-  m_LineSpacing: 1
+  m_LineSpacing: 0.7
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
@@ -242,8 +242,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 572209802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.253525, y: 9.371864, z: 0}
-  m_LocalScale: {x: 5.5000243, y: 6.600069, z: 1}
+  m_LocalPosition: {x: -21.47, y: 12.2, z: 0}
+  m_LocalScale: {x: 5.3625236, y: 5.775058, z: 1}
   m_Children: []
   m_Father: {fileID: 1697706929}
   m_RootOrder: 1
@@ -391,7 +391,7 @@ TextMesh:
   m_Text: "(Press Space to Play Again)\n                 Or\n        (Press X to Exit)"
   m_OffsetZ: 0
   m_CharacterSize: 1
-  m_LineSpacing: 1
+  m_LineSpacing: 0.8
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
@@ -435,7 +435,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1745730198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.109528, y: -0.6929951, z: 0}
+  m_LocalPosition: {x: -15.109528, y: -2.57, z: 0}
   m_LocalScale: {x: 2.1141253, y: 1.7826813, z: 1}
   m_Children: []
   m_Father: {fileID: 1697706929}
