@@ -10,7 +10,8 @@ namespace UnityStandardAssets._2D
         {
             if (other.tag == "Player")
             {
-                SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
+                print("dope");
+                other.transform.position = new Vector3(0, 1.1f, 0);
             }
         }
     }
